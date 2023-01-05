@@ -113,9 +113,7 @@ main {
     justify-content: space-around;
 }
 
-.about-info {
-    
-}
+.about-info {}
 
 .info-title {
     font-weight: 400;
@@ -127,4 +125,148 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* what i do section */
+.what-i-do {
+    /* text-align: center; */
+}
+
+.do-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.do-detiles {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin: 0 345;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-bottom: 130px;
+    padding-left: 30px;
+    padding-right: 33px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+
+
+/* resumi section */
+.summury {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 113px;
+
+}
+
+.resumi-content {
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+
+}
+
+.resumi-education {
+    margin-top: 30px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.sub-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* contact section */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-bottom: 28px;
+    padding-bottom: 28px;
+
+}
+
+.contact input,
+textarea {
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    padding-left: 30px;
+    
+}
+
+input {
+    height: 64px;
+}
+
+textarea {
+    padding-top: 20px;
+    height: 180px;
+}
+
+.contact-p {
+    
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+input [type="name"]{
+    margin-top: 28px;
+}
+.contact-section-title{
+    margin-bottom: 28px;
+}
+.contact a{
+    text-decoration: none;
+    padding-right: 10px;
 }
